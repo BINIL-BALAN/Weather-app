@@ -1,0 +1,92 @@
+/* https://images.all-free-download.com/images/graphiclarge/cloudy_sky_5_213113.jpg */
+body {
+    /* background: linear-gradient(to bottom, rgb(27, 127, 242), rgb(3, 252, 252)); */
+    background: linear-gradient(to bottom, #2977ff, #c2f2ec);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.height {
+    /* background: linear-gradient(to bottom , rgb(77, 154, 255),rgb(113, 222, 255)); */
+    height: 75vh;
+}
+
+.right {
+     background-image: url(https://images.all-free-download.com/images/graphiclarge/cloudy_sky_5_213113.jpg); 
+    /* background: linear-gradient(to bottom, #7afaeb,#2977ff ); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 65%;
+}
+
+.left {
+    height: 100%;
+    background-color: rgb(153, 152, 156);
+    width: 35%;
+}
+
+.title {
+    padding-left: 10px;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+}
+
+.details {
+    color: white;
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.detail-row {
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.detail-title {
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+
+button[class="btn btn-light mt-2 f-right"] {
+    float: right;
+}
+
+.display {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80%;
+    color: white;
+}
+
+.tempature {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.place {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.state {
+    font-size: 1rem;
+}
+
+.date-time {
+    font-size: 1rem;
+}
+
+sup {
+    font-size: 2rem;
+}

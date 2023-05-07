@@ -1,7 +1,8 @@
 /* https://images.all-free-download.com/images/graphiclarge/cloudy_sky_5_213113.jpg */
 body {
     /* background: linear-gradient(to bottom, rgb(27, 127, 242), rgb(3, 252, 252)); */
-    background: linear-gradient(to bottom, #2977ff, #c2f2ec);
+    /* background: linear-gradient(to bottom, #2977ff, #c2f2ec); */
+    background-color: rgb(182, 180, 180);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -9,13 +10,18 @@ body {
     padding: 0px;
 }
 
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
 .height {
     /* background: linear-gradient(to bottom , rgb(77, 154, 255),rgb(113, 222, 255)); */
-    height: 75vh;
+    height: 75vh;;
+
 }
 
 .right {
-     background-image: url(https://images.all-free-download.com/images/graphiclarge/cloudy_sky_5_213113.jpg); 
+    background-image: url(https://images.all-free-download.com/images/graphiclarge/cloudy_sky_5_213113.jpg);
     /* background: linear-gradient(to bottom, #7afaeb,#2977ff ); */
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +31,8 @@ body {
 
 .left {
     height: 100%;
-    background-color: rgb(153, 152, 156);
+    /* background-color: rgb(153, 152, 156); */
+    background-color: #fff;
     width: 35%;
 }
 
@@ -39,10 +46,12 @@ h2 {
 }
 
 .details {
-    color: white;
+    /* color: white; */
+    color: rgb(153, 152, 156);
+    ;
     position: relative;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .detail-row {
@@ -89,4 +98,10 @@ button[class="btn btn-light mt-2 f-right"] {
 
 sup {
     font-size: 2rem;
+}
+
+#alertmsg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
